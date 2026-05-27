@@ -1,41 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
 
-    <title>Marijose Arumy Andrade Lupa - Página Personal</title>
-
     <meta charset="UTF-8">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Marijose Arumy Andrade Lupa | Ciencia de la Computación
+    </title>
+
     <meta name="description"
-        content="Página personal de Marijose Arumy Andrade Lupa, estudiante de Ciencia de la Computación en la Universidad Católica San Pablo.">
+        content="Página personal de Marijose Arumy Andrade Lupa, estudiante de Ciencias de la Computación en la Universidad Católica San Pablo.">
 
     <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f8fc;
             color: #1a1a1a;
-            margin: 40px;
             line-height: 1.8;
         }
 
-        h1 {
-            color: #0b3d91;
-            border-bottom: 3px solid #0b3d91;
-            padding-bottom: 10px;
+        header {
+            background-color: #0b3d91;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
         }
 
-        h2 {
-            color: #174ea6;
-            margin-top: 35px;
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: white;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #dbe3ec;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0b3d91;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px 0;
         }
 
         .section {
             background-color: white;
-            padding: 25px;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 14px;
+            box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #0b3d91;
+            margin-bottom: 18px;
+        }
+
+        h3 {
+            color: #174ea6;
             margin-top: 20px;
-            border-radius: 12px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
         }
 
         a {
@@ -47,113 +107,304 @@
             text-decoration: underline;
         }
 
+        footer {
+            background-color: #0b3d91;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .highlight {
+            color: #0b3d91;
+            font-weight: bold;
+        }
+
     </style>
 
 </head>
 
 <body>
 
-    <h1>Marijose Arumy Andrade Lupa</h1>
+    <header>
 
-    <div class="section">
+        <h1>Marijose Arumy Andrade Lupa</h1>
 
         <p>
-            Bienvenido a mi página web personal.
+            Estudiante de Ciencias de la Computación
         </p>
 
         <p>
-            Soy estudiante de
-            <a href="https://es.wikipedia.org/wiki/Ciencias_de_la_computaci%C3%B3n">
-                Ciencia de la Computación
-            </a>
-            en la
-            <a href="https://ucsp.edu.pe/">
-                Universidad Católica San Pablo
-            </a>
-            de Arequipa.
+            Universidad Católica San Pablo | Arequipa, Perú
         </p>
 
         <p>
-            Actualmente me encuentro cursando mi primer semestre universitario y me interesa aprender sobre tecnología y cómo puede utilizarse para generar un impacto positivo en la sociedad.
+            Primer semestre — Ingresante 2026
         </p>
 
-    </div>
+    </header>
 
-    <div class="section">
+    <nav>
 
-        <h2>Intereses Académicos</h2>
+        <a href="#sobre-mi">Sobre mí</a>
 
-        <ul>
+        <a href="#cursos">Cursos</a>
 
-            <li>
-                <a href="https://es.wikipedia.org/wiki/Inteligencia_artificial">
-                    Inteligencia Artificial
+        <a href="#profesores">Profesores</a>
+
+        <a href="#github">GitHub</a>
+
+        <a href="#companeros">Compañeros</a>
+
+    </nav>
+
+    <div class="container">
+
+        <section class="section" id="sobre-mi">
+
+            <h2>Sobre mí</h2>
+
+            <p>
+                Bienvenido a mi página web personal.
+            </p>
+
+            <p>
+                Soy estudiante de
+                <a href="https://www.ucsp.edu.pe/carreras/ciencia-de-la-computacion/">
+                    Ciencias de la Computación
                 </a>
-            </li>
-
-            <li>
-                Desarrollo de software
-            </li>
-
-            <li>
-                Tecnología aplicada al bienestar social
-            </li>
-
-            <li>
-                Innovación tecnológica
-            </li>
-
-        </ul>
-
-    </div>
-
-    <div class="section">
-
-        <h2>Actividades e intereses personales</h2>
-
-        <p>
-            Además de mi interés por la computación, practico
-            <a href="https://es.wikipedia.org/wiki/Balonmano">
-                balonmano
-            </a>
-            y disfruto aprender continuamente sobre nuevas tecnologías.
-        </p>
-
-    </div>
-
-    <div class="section">
-
-        <h2>Links y recursos</h2>
-
-        <ul>
-
-            <li>
-                <a href="https://github.com/">
-                    GitHub
-                </a>
-            </li>
-
-            <li>
-                <a href="https://pages.github.com/">
-                    GitHub Pages
-                </a>
-            </li>
-
-            <li>
-                <a href="https://developer.mozilla.org/es/docs/Web/HTML">
-                    HTML
-                </a>
-            </li>
-
-            <li>
+                en la
                 <a href="https://ucsp.edu.pe/">
                     Universidad Católica San Pablo
                 </a>
-            </li>
+                de Arequipa, Perú.
+            </p>
 
-        </ul>
+            <p>
+                Me interesa el aprendizaje continuo en tecnología y computación, especialmente en áreas relacionadas con la resolución de problemas lógicos y el desarrollo de soluciones que puedan generar un impacto positivo en la sociedad.
+            </p>
+
+            <p>
+                Disfruto enfrentar retos lógicos y encontrar soluciones eficientes a problemas complejos. Además, me interesa aprender sobre áreas como inteligencia artificial y ciberseguridad, con el objetivo de desarrollarme profesionalmente en el ámbito tecnológico.
+            </p>
+
+            <p>
+                Entre mis actividades personales, practico
+                <a href="https://www.ihf.info/">
+                    balonmano
+                </a>,
+                disciplina que me ha ayudado a fortalecer habilidades como el trabajo en equipo, la constancia y la disciplina.
+            </p>
+
+        </section>
+
+        <section class="section" id="cursos">
+
+            <h2>Cursos actuales</h2>
+
+            <h3>Comunicación I</h3>
+
+            <p>
+                Profesor: Rodríguez Cruz Ángel
+            </p>
+
+            <p>
+                Curso orientado al desarrollo de habilidades de comunicación oral y escrita en contextos académicos y profesionales.
+            </p>
+
+            <p>
+                Recurso relacionado:
+                <a href="https://owl.purdue.edu/owl/general_writing/index.html">
+                    Academic Writing Resources
+                </a>
+            </p>
+
+            <h3>Lógica</h3>
+
+            <p>
+                Profesora: Byrne Rivera Yajaira
+            </p>
+
+            <p>
+                Curso enfocado en el razonamiento lógico, argumentación y estructuras fundamentales del pensamiento formal.
+            </p>
+
+            <p>
+                Recurso relacionado:
+                <a href="https://plato.stanford.edu/entries/logic-classical/">
+                    Stanford Encyclopedia of Philosophy - Logic
+                </a>
+            </p>
+
+            <h3>Introducción a la Vida Universitaria</h3>
+
+            <p>
+                Profesora: Pacheco Leiton Pierina
+            </p>
+
+            <p>
+                Curso orientado a la adaptación al entorno universitario, organización académica y desarrollo personal.
+            </p>
+
+            <h3>Fundamentos de Programación</h3>
+
+            <p>
+                Profesora: Visconde La Mota Kelly
+            </p>
+
+            <p>
+                Curso introductorio sobre algoritmos, programación y resolución de problemas computacionales.
+            </p>
+
+            <p>
+                Recurso relacionado:
+                <a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_a_script">
+                    Introducción a la programación
+                </a>
+            </p>
+
+            <h3>Fundamentos Matemáticos para Computación</h3>
+
+            <p>
+                Profesora: Suárez Calcina Sabrina
+            </p>
+
+            <p>
+                Curso enfocado en conceptos matemáticos fundamentales aplicados a ciencias de la computación.
+            </p>
+
+            <p>
+                Recurso relacionado:
+                <a href="https://ocw.mit.edu/courses/18-062j-mathematics-for-computer-science-fall-2010/">
+                    Mathematics for Computer Science - MIT
+                </a>
+            </p>
+
+            <h3>Introducción a la Computación</h3>
+
+            <p>
+                Profesor: Cuadros Vargas Ernesto
+            </p>
+
+            <p>
+                Curso introductorio sobre conceptos fundamentales de computación, tecnologías digitales y estructura básica de sistemas computacionales.
+            </p>
+
+            <p>
+                Recurso relacionado:
+                <a href="https://www.computerhistory.org/">
+                    Computer History Museum
+                </a>
+            </p>
+
+        </section>
+
+        <section class="section" id="profesores">
+
+            <h2>Profesores</h2>
+
+            <ul>
+
+                <li>
+                    Rodríguez Cruz Ángel — Comunicación I
+                </li>
+
+                <li>
+                    Byrne Rivera Yajaira — Lógica
+                </li>
+
+                <li>
+                    Pacheco Leiton Pierina — Introducción a la Vida Universitaria
+                </li>
+
+                <li>
+                    Visconde La Mota Kelly — Fundamentos de Programación
+                </li>
+
+                <li>
+                    Suárez Calcina Sabrina — Fundamentos Matemáticos para Computación
+                </li>
+
+                <li>
+                    Cuadros Vargas Ernesto — Introducción a la Computación
+                </li>
+
+            </ul>
+
+        </section>
+
+        <section class="section" id="github">
+
+            <h2>GitHub y enlaces profesionales</h2>
+
+            <p>
+                Perfil de GitHub:
+                <a href="https://github.com/">
+                    GitHub
+                </a>
+            </p>
+
+            <p>
+                Repositorio del proyecto:
+                <a href="https://pages.github.com/">
+                    GitHub Pages
+                </a>
+            </p>
+
+            <p>
+                LinkedIn profesional:
+                Próximamente.
+            </p>
+
+        </section>
+
+        <section class="section" id="companeros">
+
+            <h2>Páginas de compañeros</h2>
+
+            <p>
+                Algunas páginas web de compañeros del curso:
+            </p>
+
+            <ul>
+
+                <li>
+                    <a href="https://romineriosrosas.github.io/">
+                        Romine Rios
+                    </a>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <section class="section">
+
+            <h2>Idiomas</h2>
+
+            <ul>
+
+                <li>Español — Nativo</li>
+
+                <li>Inglés — Básico</li>
+
+            </ul>
+
+        </section>
 
     </div>
+
+    <footer>
+
+        <p>
+            Página personal de Marijose Arumy Andrade Lupa
+        </p>
+
+        <p>
+            Ciencias de la Computación — Universidad Católica San Pablo
+        </p>
+
+    </footer>
 
 </body>
 
