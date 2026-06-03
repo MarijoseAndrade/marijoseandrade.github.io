@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="es">
 <!DOCTYPE html>
 
 <html lang="es">
@@ -7,32 +6,61 @@
 <head>
 
 ```
-<title>Marijose Arumy Andrade Lupa - Página Personal</title>
-
 <meta charset="UTF-8">
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+    Marijose Arumy Andrade Lupa | Ciencia de la Computación
+</title>
+
+<meta name="description"
+    content="Página personal de Marijose Arumy Andrade Lupa, estudiante de Ciencias de la Computación en la Universidad Católica San Pablo.">
+
 <style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
     body {
         font-family: Arial, sans-serif;
         background-color: #f4f8fc;
         color: #1a1a1a;
-        margin: 40px;
         line-height: 1.8;
     }
 
-    nav {
+    header {
         background-color: #0b3d91;
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    nav {
+        background-color: white;
         padding: 15px;
         text-align: center;
-        border-radius: 12px;
-        margin-bottom: 25px;
+        border-bottom: 1px solid #dbe3ec;
+        position: sticky;
+        top: 0;
     }
 
     nav a {
-        color: white;
-        text-decoration: none;
         margin: 0 15px;
+        text-decoration: none;
+        color: #0b3d91;
         font-weight: bold;
     }
 
@@ -40,36 +68,37 @@
         text-decoration: underline;
     }
 
-    header {
-        background-color: #0b3d91;
-        color: white;
-        text-align: center;
-        padding: 35px;
-        border-radius: 12px;
-        margin-bottom: 25px;
-    }
-
-    header h1 {
-        margin: 0;
-        font-size: 42px;
-    }
-
-    header p {
-        margin: 8px 0;
-        font-size: 18px;
-    }
-
-    h2 {
-        color: #174ea6;
-        margin-top: 0;
+    .container {
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;
+        padding: 30px 0;
     }
 
     .section {
         background-color: white;
-        padding: 25px;
+        padding: 30px;
+        margin-bottom: 25px;
+        border-radius: 14px;
+        box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+        color: #0b3d91;
+        margin-bottom: 18px;
+    }
+
+    h3 {
+        color: #174ea6;
         margin-top: 20px;
-        border-radius: 12px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    ul {
+        padding-left: 25px;
+    }
+
+    li {
+        margin-bottom: 10px;
     }
 
     a {
@@ -82,9 +111,11 @@
     }
 
     footer {
+        background-color: #0b3d91;
+        color: white;
         text-align: center;
-        margin-top: 30px;
-        color: #555;
+        padding: 20px;
+        margin-top: 40px;
     }
 
 </style>
@@ -95,11 +126,21 @@
 <body>
 
 ```
+<header>
+
+    <h1>Marijose Arumy Andrade Lupa</h1>
+
+    <p>Estudiante de Ciencias de la Computación</p>
+
+    <p>Universidad Católica San Pablo | Arequipa, Perú</p>
+
+    <p>Primer semestre — Ingresante 2026</p>
+
+</header>
+
 <nav>
 
-    <a href="#inicio">Inicio</a>
-
-    <a href="#perfil">Perfil</a>
+    <a href="#perfil">Perfil Profesional</a>
 
     <a href="#cursos">Cursos</a>
 
@@ -111,200 +152,206 @@
 
 </nav>
 
-<header id="inicio">
+<div class="container">
 
-    <h1>Marijose Arumy Andrade Lupa</h1>
+    <section class="section" id="perfil">
 
-    <p>Estudiante de Ciencias de la Computación</p>
+        <h2>Perfil Profesional</h2>
 
-    <p>Universidad Católica San Pablo — Arequipa, Perú</p>
-
-</header>
-
-<div class="section" id="perfil">
-
-    <h2>Perfil</h2>
-
-    <p>
-        Soy estudiante de Ciencias de la Computación en la
-        <a href="https://ucsp.edu.pe/" target="_blank">
-            Universidad Católica San Pablo
-        </a>
-        de Arequipa.
-    </p>
-
-    <p>
-        Actualmente curso mi primer semestre universitario como ingresante 2026. Me interesa aprender sobre programación, pensamiento lógico y áreas relacionadas con el desarrollo tecnológico y la innovación.
-    </p>
-
-    <p>
-        Además de mis intereses académicos, practico
-        <a href="https://www.ihf.info/" target="_blank">
-            balonmano
-        </a>,
-        actividad que me ha permitido fortalecer habilidades como la disciplina y el trabajo en equipo.
-    </p>
-
-    <h3>Habilidades personales</h3>
-
-    <ul>
-        <li>Aprendizaje rápido</li>
-        <li>Disciplina</li>
-        <li>Constancia</li>
-        <li>Trabajo en equipo</li>
-        <li>Pensamiento lógico</li>
-        <li>Adaptabilidad</li>
-    </ul>
-
-    <h3>Intereses académicos</h3>
-
-    <ul>
-        <li>Ciberseguridad</li>
-        <li>Innovación tecnológica</li>
-        <li>Inteligencia artificial</li>
-        <li>Lógica matemática</li>
-    </ul>
-
-    <h3>Idiomas</h3>
-
-    <ul>
-        <li>Español — Nativo</li>
-        <li>Inglés — Básico</li>
-    </ul>
-
-</div>
-
-<div class="section" id="cursos">
-
-    <h2>Cursos actuales</h2>
-
-    <h3>Comunicación I</h3>
-    <p>Profesor: Rodríguez Cruz Ángel</p>
-    <p>Curso orientado al desarrollo de habilidades de comunicación oral y escrita.</p>
-
-    <h3>Lógica</h3>
-    <p>Profesora: Byrne Rivera Yahaira</p>
-    <p>Curso enfocado en razonamiento lógico y estructuras formales de pensamiento.</p>
-
-    <h3>Introducción a la Vida Universitaria</h3>
-    <p>Profesora: Pacheco Leyton Pierina</p>
-    <p>Curso relacionado con adaptación y formación universitaria.</p>
-
-    <h3>Fundamentos de Programación</h3>
-    <p>Profesora: Vizconde La Motta Kelly</p>
-    <p>Curso introductorio sobre programación y resolución de problemas computacionales.</p>
-
-    <h3>Fundamentos Matemáticos para Computación</h3>
-    <p>Profesora: Suárez Calcina Sabrina</p>
-    <p>Curso enfocado en herramientas matemáticas aplicadas a computación.</p>
-
-    <h3>Introducción a la Computación</h3>
-    <p>Profesor: Cuadros Vargas Ernesto</p>
-    <p>Curso introductorio sobre conceptos fundamentales de computación y tecnología.</p>
-
-</div>
-
-<div class="section" id="profesores">
-
-    <h2>Profesores y enlaces profesionales</h2>
-
-    <ul>
-
-        <li>
-            Rodríguez Cruz Ángel —
-            <a href="https://www.linkedin.com/in/angel-rodriguez-cruz-58b78b85/" target="_blank">
-                LinkedIn
+        <p>
+            Soy estudiante de
+            <a href="https://www.ucsp.edu.pe/carreras/ciencia-de-la-computacion/" target="_blank">
+                Ciencias de la Computación
             </a>
-        </li>
+            en la
+            <a href="https://ucsp.edu.pe/" target="_blank">
+                Universidad Católica San Pablo
+            </a>.
+        </p>
 
-        <li>
-            Byrne Rivera Yahaira —
-            <a href="https://www.linkedin.com/in/yahaira-byrne-rivera-274201221/" target="_blank">
-                LinkedIn
+        <p>
+            Actualmente curso mi primer semestre universitario como ingresante 2026. Me interesa el aprendizaje constante, el desarrollo tecnológico y la aplicación de la computación para resolver problemas que generen un impacto positivo en la sociedad.
+        </p>
+
+        <p>
+            Disfruto enfrentar retos lógicos y desarrollar soluciones mediante el razonamiento analítico y la tecnología.
+        </p>
+
+        <p>
+            Además, practico
+            <a href="https://www.ihf.info/" target="_blank">
+                balonmano
+            </a>,
+            actividad que fortalece habilidades como la disciplina y el trabajo en equipo.
+        </p>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Habilidades Personales</h2>
+
+        <ul>
+
+            <li>Aprendizaje rápido</li>
+
+            <li>Disciplina</li>
+
+            <li>Constancia</li>
+
+            <li>Trabajo en equipo</li>
+
+            <li>Pensamiento lógico</li>
+
+            <li>Adaptabilidad</li>
+
+        </ul>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Intereses Académicos</h2>
+
+        <ul>
+
+            <li>Ciberseguridad</li>
+
+            <li>Innovación tecnológica</li>
+
+            <li>Inteligencia artificial</li>
+
+            <li>Lógica matemática</li>
+
+        </ul>
+
+    </section>
+
+    <section class="section" id="cursos">
+
+        <h2>Cursos actuales</h2>
+
+        <h3>Comunicación I</h3>
+        <p>Profesor: Rodríguez Cruz Ángel</p>
+        <p>Desarrollo de habilidades de comunicación oral y escrita.</p>
+
+        <h3>Lógica</h3>
+        <p>Profesora: Byrne Rivera Yajaira</p>
+        <p>Razonamiento lógico y estructuras formales del pensamiento.</p>
+
+        <h3>Introducción a la Vida Universitaria</h3>
+        <p>Profesora: Pacheco Leiton Pierina</p>
+        <p>Adaptación y formación para la vida universitaria.</p>
+
+        <h3>Fundamentos de Programación</h3>
+        <p>Profesora: Vizconde La Motta Kelly</p>
+        <p>Introducción a algoritmos y programación.</p>
+
+        <h3>Fundamentos Matemáticos para Computación</h3>
+        <p>Profesora: Suárez Calcina Sabrina</p>
+        <p>Herramientas matemáticas aplicadas a computación.</p>
+
+        <h3>Introducción a la Computación</h3>
+        <p>Profesor: Cuadros Vargas Ernesto</p>
+        <p>Conceptos fundamentales de computación y tecnología.</p>
+
+    </section>
+
+    <section class="section" id="profesores">
+
+        <h2>Profesores y enlaces profesionales</h2>
+
+        <ul>
+
+            <li>
+                Rodríguez Cruz Ángel —
+                <a href="https://www.linkedin.com/in/angel-rodriguez-cruz-58b78b85/" target="_blank">LinkedIn</a>
+            </li>
+
+            <li>
+                Byrne Rivera Yajaira —
+                <a href="https://www.linkedin.com/in/yahaira-byrne-rivera-274201221/" target="_blank">LinkedIn</a>
+            </li>
+
+            <li>
+                Pacheco Leiton Pierina —
+                <a href="https://encuentro.pe/autores/pierina-pacheco-leyton/" target="_blank">Perfil</a>
+            </li>
+
+            <li>
+                Vizconde La Motta Kelly —
+                <a href="https://www.linkedin.com/in/kelly-vizconde-la-motta-3a57a4143/" target="_blank">LinkedIn</a>
+            </li>
+
+            <li>
+                Suárez Calcina Sabrina —
+                <a href="https://www.escavador.com/sobre/478946/sabrina-graciela-suarez-calcina" target="_blank">Perfil</a>
+            </li>
+
+            <li>
+                Cuadros Vargas Ernesto —
+                <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">LinkedIn</a>
+            </li>
+
+        </ul>
+
+    </section>
+
+    <section class="section" id="companeros">
+
+        <h2>Compañeros</h2>
+
+        <p>Algunas páginas interesantes de compañeros del curso:</p>
+
+        <ul>
+
+            <li>
+                <a href="https://romineriosrosas.github.io/" target="_blank">
+                    Romine Rios
+                </a>
+            </li>
+
+            <li>
+                <a href="https://mirellasanchez.github.io/mirella-rossy-sanchez-quispe/" target="_blank">
+                    Mirella Sanchez
+                </a>
+            </li>
+
+        </ul>
+
+    </section>
+
+    <section class="section" id="contacto">
+
+        <h2>Contacto</h2>
+
+        <p>
+            Correo institucional:
+            <a href="mailto:marijose.andrade@ucsp.edu.pe">
+                marijose.andrade@ucsp.edu.pe
             </a>
-        </li>
+        </p>
 
-        <li>
-            Pacheco Leyton Pierina —
-            <a href="https://encuentro.pe/autores/pierina-pacheco-leyton/" target="_blank">
-                Perfil
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/marijose-andrade-lupa-271a50413/" target="_blank">
+                LinkedIn Marijose Andrade Lupa
             </a>
-        </li>
+        </p>
 
-        <li>
-            Vizconde La Motta Kelly —
-            <a href="https://www.linkedin.com/in/kelly-vizconde-la-motta-3a57a4143/" target="_blank">
-                LinkedIn
-            </a>
-        </li>
-
-        <li>
-            Suárez Calcina Sabrina —
-            <a href="https://www.escavador.com/sobre/478946/sabrina-graciela-suarez-calcina" target="_blank">
-                Perfil
-            </a>
-        </li>
-
-        <li>
-            Cuadros Vargas Ernesto —
-            <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">
-                LinkedIn
-            </a>
-        </li>
-
-    </ul>
-
-</div>
-
-<div class="section" id="companeros">
-
-    <h2>Compañeros</h2>
-
-    <p>
-        Algunas páginas interesantes de compañeros del curso:
-    </p>
-
-    <ul>
-
-        <li>
-            <a href="https://romineriosrosas.github.io/" target="_blank">
-                Romine Rios
-            </a>
-        </li>
-
-        <li>
-            <a href="https://mirellasanchez.github.io/mirella-rossy-sanchez-quispe/" target="_blank">
-                Mirella Sanchez
-            </a>
-        </li>
-
-    </ul>
-
-</div>
-
-<div class="section" id="contacto">
-
-    <h2>Contacto</h2>
-
-    <p>
-        Correo institucional:
-        <a href="mailto:marijose.andrade@ucsp.edu.pe">
-            marijose.andrade@ucsp.edu.pe
-        </a>
-    </p>
-
-    <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/marijose-andrade-lupa-271a50413/" target="_blank">
-            LinkedIn
-        </a>
-    </p>
+    </section>
 
 </div>
 
 <footer>
 
-    Página personal de Marijose Arumy Andrade Lupa
+    <p>
+        Página personal de Marijose Arumy Andrade Lupa
+    </p>
+
+    <p>
+        Ciencias de la Computación — Universidad Católica San Pablo
+    </p>
 
 </footer>
 ```
